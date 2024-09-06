@@ -17,8 +17,8 @@ function NavBar() {
             ))}
         </div>
         <div className="LogoCollege h-[4.5rem] w-[10%]  flex gap-4">
-          <img src="/uemLogo.png"alt="uem logo" className="h-full w-1/2 rounded-full bg-black"/>
-          <img src="/iemLogo.png" alt="iem logo" className="h-full w-1/2 rounded-full bg-black"/>
+          <img src="/uemLogo.png"alt="uem logo" className="h-full w-1/2 rounded-full bg-none"/>
+          <img src="/iemLogo.png" alt="iem logo" className="h-full w-1/2 rounded-full bg-none"/>
         </div>
       </div>
   

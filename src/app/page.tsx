@@ -31,18 +31,19 @@ export default function Home() {
   const days_difference = Math.abs(main_dt - dt) / (1000 * 60 * 60 * 24);
 
   const [loading, setLoading] = useState(true);
-
+  
   useEffect(() => {
     // Simulate a data fetch
     setTimeout(() => {
       setLoading(false);
-    }, 4000); // 2 seconds delay
+    }, 2000); // 2 seconds delay
+    
   }, []);
 
   if (loading) {
     return <Loader />;
   }
-
+  
   return (
     <div className="h-screen w-screen bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 overflow-auto scrollbar-hide dark overflow-x-hidden scroll-smooth">
       <div className="w-full max-w-screen h-20 bg-gray-500 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-70  sticky top-0 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]   border-b-2 border-black z-[999]">
@@ -56,12 +57,19 @@ export default function Home() {
       <div className=" w-screen h-[100vh]">
         <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden  ">
           <RetroGrid />
+          {/* <span className="  -left-[10.5rem] animate-spin duration-700 h-[50%] -bottom-20 w-[20rem] overflow-hidden z-20 fixed"> 
+            <img src="/cogwheel.png" alt="" className="w-full h-auto"/>
+          </span>
+          <span className="  -right-[10.5rem] animate-spin duration-700 top-0 h-[50%] w-[20rem] overflow-hidden z-20 fixed"> 
+            <img src="/cogwheel.png" alt="" className="w-full h-auto"/>
+          </span> */}
           <div className="h-full w-full  flex justify-center items-center flex-col">
+           
             <Fade
               direction="down"
               duration={800}
               triggerOnce
-              className="h-fit flex justify-center w-full"
+              className="h-fit flex justify-center w-full z-[555]"
             >
               <img
                 src="/techKurukshetra/techKurukshetraWritten.png"
@@ -69,10 +77,12 @@ export default function Home() {
                 className="h-auto md:w-[80%] w-[95%] mix-blend-color-burn"
               />
             </Fade>
-            <TypingAnimation
-              className="md:text-6xl pt-4 text-2xl font-bold text-white"
-              text="A war like never before !"
-            />
+
+             {/* <TypingAnimation
+              className="md:text-2xl  text-base font-bold text-gray-400 py-8"
+              text="In collaboration with IEDC With Department of CSE(IoT,CS,BCT) of University of Engineering and Management, Kolkata"
+              duration={50}
+            />  */}
             <Fade
               direction="up"
               triggerOnce
