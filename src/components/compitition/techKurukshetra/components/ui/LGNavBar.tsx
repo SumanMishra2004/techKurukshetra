@@ -7,7 +7,10 @@ function NavBar() {
    
       <div className="navItems w-[95%] h-[90%] flex justify-between items-center ">
         <div className="Logoarea h-[4.5rem] w-[4.5rem] rounded-full ">
-        <img src="/techKurukshetra/logo.png" alt="logo" className="size-full scale-[2]" />
+          <div className="h-full w-auto flex items-center">
+
+        <img src="/techKurukshetra/logo.png" alt="logo" className="scale-150 h-9 w-auto" />
+          </div>
         </div>
         <div className="FunctionArea h-full w-[75%]  flex justify-around items-center z-[999]">
             {NavItems.map((values,index)=>(

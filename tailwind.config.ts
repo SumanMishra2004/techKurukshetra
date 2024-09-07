@@ -25,6 +25,10 @@ const config = {
       },
     },
     extend: {
+      writingMode: {
+        'vertical-rl': 'vertical-rl',
+        'vertical-lr': 'vertical-lr',
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -66,7 +70,19 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"),require('tailwind-scrollbar-hide'),addVariablesForColors],
+  plugins: [require("tailwindcss-animate"),require('tailwind-scrollbar-hide'),addVariablesForColors,
+    function ({ addUtilities }: { addUtilities: any }) {
+      const newUtilities = {
+        '.vertical-rl': {
+          'writing-mode': 'vertical-rl',
+        },
+        '.vertical-lr': {
+          'writing-mode': 'vertical-lr',
+        },
+      };
+      addUtilities(newUtilities);
+    },
+  ],
 } satisfies Config
 
 export default config

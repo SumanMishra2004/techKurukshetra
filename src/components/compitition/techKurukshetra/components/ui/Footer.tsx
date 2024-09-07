@@ -12,12 +12,12 @@ function Footer() {
         <p className="text-white text-sm">+91 98306 80888</p>
         <p className="text-white text-sm" typeof="gmail">tech.kurukshetra@uem.edu.in</p>
       </div>
-      <div className="h-full w-full flex justify-center items-center flex-col ">
+      <div className="h-full w-full flex justify-center items-center flex-col py-5">
         <img
           src="/techKurukshetra/logo.png"
-          className="lg:h-full h-[10rem] w-[22rem] relative -top-7"
+          className=" h-auto w-[22rem] "
         />
-        <div className="handle flex w-[22rem] h-fit  items-center justify-between absolute bottom-6">
+        <div className="handle flex w-[22rem] h-fit  items-center justify-between">
           <a
             href="https://www.facebook.com/techkurukshetra"
             target="_blank"

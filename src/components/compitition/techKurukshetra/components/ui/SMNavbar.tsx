@@ -41,11 +41,11 @@ function SMNavbar(): ReactElement {
           className="h-full w-1/2 rounded-xl"
         />
       </div>
-      <div className="h-[4rem] w-[4rem] ">
+      <div className="h-full w-auto flex items-center  ">
         <img
           src="/techKurukshetra/logo.png"
           alt="logo"
-          className="size-full scale-[2] pl-3"
+          className="w-[8.5rem] h-auto"
         />
       </div>
       <div

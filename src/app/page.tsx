@@ -24,6 +24,7 @@ import HomeDiscordButton from "@/components/compitition/techKurukshetra/componen
 import { useEffect, useState } from "react";
 import Loader from "@/components/compitition/techKurukshetra/components/ui/Loader";
 import TypingAnimation from "@/components/compitition/techKurukshetra/components/magicui/typing-animation";
+import { ArrowBigDownDash, DownloadCloudIcon, Facebook, InstagramIcon, LinkedinIcon, Twitter } from "lucide-react";
 
 export default function Home() {
   let dt = new Date().getTime();
@@ -46,7 +47,7 @@ export default function Home() {
   
   return (
     <div className="h-screen w-screen bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 overflow-auto scrollbar-hide dark overflow-x-hidden scroll-smooth">
-      <div className="w-full max-w-screen h-20 bg-gray-500 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-70  sticky top-0 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]   border-b-2 border-black z-[999]">
+      <div className="w-full max-w-screen h-20 bg-gray-500/20 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-70   top-0 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]   border-b-2 border-black z-[999] fixed">
         <div className="h-full w-full justify-center items-center lg:flex hidden ">
           <NavBar />
         </div>
@@ -55,43 +56,47 @@ export default function Home() {
         </div>
       </div>
       <div className=" w-screen h-[100vh]">
-        <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden  ">
-          <RetroGrid />
+        <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden bg-[url('/trynew2.jpg')]  bg-cover bg-no-repeat   bg-bottom">
+          {/* <RetroGrid /> */}
           {/* <span className="  -left-[10.5rem] animate-spin duration-700 h-[50%] -bottom-20 w-[20rem] overflow-hidden z-20 fixed"> 
             <img src="/cogwheel.png" alt="" className="w-full h-auto"/>
           </span>
           <span className="  -right-[10.5rem] animate-spin duration-700 top-0 h-[50%] w-[20rem] overflow-hidden z-20 fixed"> 
             <img src="/cogwheel.png" alt="" className="w-full h-auto"/>
           </span> */}
-          <div className="h-full w-full  flex justify-center items-center flex-col">
-           
-            <Fade
-              direction="down"
-              duration={800}
-              triggerOnce
-              className="h-fit flex justify-center w-full z-[555]"
-            >
-              <img
-                src="/techKurukshetra/techKurukshetraWritten.png"
-                alt=""
-                className="h-auto md:w-[80%] w-[95%] mix-blend-color-burn"
-              />
-            </Fade>
+          <div className="h-full w-full  flex justify-center  items-center flex-col pt-36 sm:pt-0">
+           <img src="/techKurukshetra/logo.png" className="h-[12rem] w-fit overflow-hidden  lg:h-[13rem] "/>
+           <HomeDevfoliobutton/>
+           <HomeDiscordButton/>
+           <ArrowBigDownDash className="h-[5rem] w-fit overflow-hidden text-white absolute right-0 bottom-0 animate-bounce"/>
+           <div className="bg-gray-500/25 border border-black h-full w-[5rem] md:flex justify-center items-center  absolute left-5 top-0 hidden rounded-md">
+            <div className="h-fit rounded-3xl w-full  flex items-center py-7 justify-center">
+            <TypingAnimation text="A war like never before " className="rotate-180 vertical-rl text-5xl text-white text-end text-nowrap pb-3 bg-gradient-to-br from-sky-500 via-violet-600 to-cyan-300 bg-clip-text text-transparent"/>
+                 
+             
+            </div>
 
-             {/* <TypingAnimation
-              className="md:text-2xl  text-base font-bold text-gray-400 py-8"
-              text="In collaboration with IEDC With Department of CSE(IoT,CS,BCT) of University of Engineering and Management, Kolkata"
-              duration={50}
-            />  */}
-            <Fade
-              direction="up"
-              triggerOnce
-              className="h-auto w-auto flex justify-center items-center flex-col"
-            >
-              <HomeDevfoliobutton />
-              <HomeDiscordButton />
-            </Fade>
-          </div>
+           </div>
+           <div className="w-full h-[5rem] bg-gray-500/20 absolute bottom-5 border border-black rounded-md flex justify-center items-center gap-5">
+           <a target="_blank" href="" className="h-[2rem] w-[2rem] md:size-[3rem] rounded-md flex justify-center items-center border-blue-500 border-2 shadow-2xl hover:scale-[1.2] duration-300" >
+            <Facebook className="h-[85%] w-auto text-white"/>
+
+           </a>
+           <a target="_blank" href="" className="h-[2rem] w-[2rem] md:size-[3rem] rounded-md flex justify-center items-center border-blue-500 border-2 shadow-2xl hover:scale-[1.2] duration-300" >
+            <LinkedinIcon className="h-[85%] w-auto text-white"/>
+
+           </a>
+           <a target="_blank" href="" className="h-[2rem] w-[2rem] md:size-[3rem] rounded-md flex justify-center items-center border-blue-500 border-2 shadow-2xl hover:scale-[1.2] duration-300" >
+            <InstagramIcon className="h-[85%] w-auto text-white"/>
+
+           </a>
+           <a target="_blank" href="" className="h-[2rem] w-[2rem] md:size-[3rem] rounded-md flex justify-center items-center border-blue-500 border-2 shadow-2xl hover:scale-[1.2] duration-300" >
+            <Twitter className="h-[85%] w-auto text-white"/>
+
+           </a>
+           
+           </div>
+           </div>
         </div>
       </div>
       <Countdown dt={days_difference * 24 * 60 * 60 * 1000} />
