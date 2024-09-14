@@ -7,35 +7,35 @@ import TeamSection from "./TeamSection";
 export function TabsDemo() {
   const tabs = [
 
-    
+
     {
       title: "Mentor",
       value: "mentor",
       content: (
-        
-          <DummyContent type="mentor" />
-    
+
+        <DummyContent type="mentor" />
+
       ),
     },
     {
       title: "Core",
       value: "core",
       content: (
-        
-          <DummyContent type="core"/>
-        
+
+        <DummyContent type="core" />
+
       ),
     },
     {
       title: "Volunteer",
       value: "volunteer",
       content: (
-        
-          <DummyContent type="volunteer"/>
-       
+
+        <DummyContent type="volunteer" />
+
       ),
     },
-    
+
   ];
 
   return (
@@ -45,11 +45,11 @@ export function TabsDemo() {
   );
 }
 
-const DummyContent = ({type}: {type?: string}) => {
+const DummyContent = ({ type }: { type?: string }) => {
   return (
-    <div className="w-full h-fit shadow-2xl pb-4 bg-blue-300 flex justify-start items-start overflow-auto scrollbar-hide rounded-2xl">
-<TeamSection type={type}/>
-    
+    <div className="w-full h-fit shadow-2xl pb-4 bg-cyan-600 flex justify-start items-start overflow-auto scrollbar-hide rounded-2xl">
+      <TeamSection type={type} />
+
     </div>
   );
 };

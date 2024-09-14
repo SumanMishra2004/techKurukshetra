@@ -28,7 +28,7 @@ const Rules: React.FC = () => {
    
     <div className="p-4 md:p-8 lg:p-12 relative z-[100] min-h-screen flex items-center justify-center" id='rule'>
       <motion.div
-        className="bg-white p-6 rounded-lg shadow-lg w-full max-w-4xl"
+        className="text-white p-6 rounded-lg shadow-lg w-full max-w-4xl"
         initial="hidden"
         animate="visible"
         variants={containerVariants}
@@ -36,7 +36,7 @@ const Rules: React.FC = () => {
         <h1 className="text-2xl font-bold mb-4">Event Rules</h1>
         <ul className="list-disc list-inside space-y-4">
           {rules1.map((rule, index) => (
-            <motion.li key={index} variants={itemVariants} className="text-gray-700 text-justify">
+            <motion.li key={index} variants={itemVariants} className=" text-justify">
               {rule}
             </motion.li>
           ))}
