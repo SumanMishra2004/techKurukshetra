@@ -8,6 +8,7 @@ export interface OrbitingCirclesProps {
   delay?: number;
   radius?: number;
   path?: boolean;
+  className2?:string
 }
 
 export default function OrbitingCircles({
@@ -18,6 +19,7 @@ export default function OrbitingCircles({
   delay = 10,
   radius = 50,
   path = true,
+  className2
 }: OrbitingCirclesProps) {
   return (
     <>
@@ -28,7 +30,7 @@ export default function OrbitingCircles({
           className="pointer-events-none absolute inset-0 size-full"
         >
           <circle
-            className="stroke-black/10 stroke-1 dark:stroke-white/50"
+            className={cn("stroke-black/10 stroke-1 dark:stroke-white/50",className2)}
             cx="50%"
             cy="50%"
             r={radius}

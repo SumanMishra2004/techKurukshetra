@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="w-full lg:h-[10rem] h-fit bg-gray-600 flex justify-between items-center overflow-hidden">
-      <div className="written w-[30rem] h-full md:flex items-center justify-center flex-col hidden ">
+    <footer className="w-full lg:h-[16rem] bg-gray-400 flex justify-between items-center md:flex-row flex-col gap-6 md:gap-0 md:h-fit py-8">
+      <div className="w-[30rem] h-full flex items-center justify-center flex-col  ">
         <h1 className="text-white text-2xl font-bold">Tech Kurukshetra</h1>
         <p className="text-white text-[0.9rem]">
           University of Engineering & Management, Kolkata
@@ -69,7 +69,7 @@ function Footer() {
           <a
             href="https://www.linkedin.com/company/techkurukshetra"
             target="_blank"
-             className="hover:scale-150 duration-300"
+            className="hover:scale-150 duration-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -87,12 +87,17 @@ function Footer() {
           </a>
         </div>
       </div>
-      <div className="map w-[20rem] h-[95%] mr-4 hidden md:flex">
+      <div className="map w-[20rem] md:h-[95%] h-44 mr-4 flex">
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.2919682843203!2d88.48732647475677!3d22.5599251334359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020b267a3cdc13%3A0xb3b21d652126f40!2sUniversity%20of%20Engineering%20%26%20Management%2C%20Kolkata%20(UEM)!5e1!3m2!1sen!2sin!4v1725486610737!5m2!1sen!2sin" width="600" height="450" className="border size-full" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.2919682843203!2d88.48732647475677!3d22.5599251334359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020b267a3cdc13%3A0xb3b21d652126f40!2sUniversity%20of%20Engineering%20%26%20Management%2C%20Kolkata%20(UEM)!5e1!3m2!1sen!2sin!4v1725486610737!5m2!1sen!2sin" width="600" height="450" className="border size-full" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
       </div>
     </footer>
   );
 }
 
 export default Footer;
+
+/*
+
+
+*/

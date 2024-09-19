@@ -47,7 +47,7 @@ export function TabsDemo() {
 
 const DummyContent = ({ type }: { type?: string }) => {
   return (
-    <div className="w-full h-fit shadow-2xl pb-4 bg-cyan-600 flex justify-start items-start overflow-auto scrollbar-hide rounded-2xl">
+    <div className="w-full h-fit shadow-2xl pb-4  flex justify-start items-start overflow-auto scrollbar-hide rounded-2xl">
       <TeamSection type={type} />
 
     </div>

@@ -60,7 +60,7 @@ const Countdown: React.FC<CountdownProps> = ({ dt }) => {
   return (
     <div
       id="next"
-      className="z-10 text-white w-[100%] h-[25rem] sm:min-h-fit flex flex-col justify-center items-center count border-2 border-gray-300 relative"
+      className="z-10 text-white w-[100%] h-full flex flex-col justify-center items-center count  relative"
     >
         <Fade direction="down" duration={1500}>
 

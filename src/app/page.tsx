@@ -28,7 +28,9 @@ import {
   InstagramIcon,
   LinkedinIcon,
   Twitter,
+  Wheat,
 } from "lucide-react";
+import OrbitingCircles from "@/components/compitition/techKurukshetra/components/magicui/orbiting-circles";
 
 export default function Home() {
   let dt = new Date().getTime();
@@ -52,8 +54,8 @@ export default function Home() {
 
 
   return (
-    <div className="h-screen w-screen bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 overflow-auto scrollbar-hide dark overflow-x-hidden scroll-smooth">
-      <div className="w-full max-w-screen h-20 bg-gray-500/20 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-70   top-0 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]   border-b-2 border-black z-[999] fixed">
+    <div className="h-screen w-screen overflow-auto scrollbar-hide dark overflow-x-hidden scroll-smooth bg-black">
+      <div className="w-full max-w-screen h-20 bg-gray-500/20  rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-70   top-0 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]   border-b-2 border-black z-[999] fixed">
         <div className="h-full w-full justify-center items-center lg:flex hidden ">
           <NavBar />
         </div>
@@ -62,10 +64,10 @@ export default function Home() {
         </div>
       </div>
       {loading && <Loader />}
-      <div className={`w-full h-auto ${loading ? "hidden" : "block"}`}>
+      <div className={`w-full h-auto ${loading ? "hidden" : "block"} `}>
 
 
-        <div className=" w-screen h-[100vh] relative">
+        <div className=" w-screen h-[100vh] relative ">
 
           <video
             src="/tryvideo.mp4"
@@ -144,177 +146,185 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <Countdown dt={days_difference * 24 * 60 * 60 * 1000} />
-        <div className="h-auto w-full relative bg-gradient-to-r from-black via-transparent to-black ">
-          
-          <div className=" h-fit w-full relative inset-0 z-[555] ">
-            <div
-              className=" z-20 md:h-screen h-fit py-7 w-full flex justify-around md:flex-row flex-col items-center   "
-              id="about"
-            >
-              <div className="h-auto md:w-[40%] w-[90%] text-justify text-white flex flex-col justify-center items-center gap-5 py-4">
-                <Fade
-                  direction="down"
-                  duration={800}
-                  className="text-5xl font-bold "
-                >
-                  About Us
-                </Fade>
-                <Fade direction="right" duration={800}>
-                  Tech Kurukshetra is a premier technical project competition
-                  organized by the Department of Computer Science and Engineering
-                  (IoT, CS, and BT) in collaboration with the Innovation and
-                  Entrepreneurship Development Cell (IEDC).
-                </Fade>
-                <Fade direction="left" duration={900} delay={500}>
-                  This event serves as a dynamic platform for students to showcase
-                  their innovative projects and technical prowess, encouraging
-                  creativity, problem-solving, and real-world application of their
-                  skills.
-                </Fade>
-                <Fade direction="right" duration={1200} delay={100}>
-                  Tech Kurukshetra brings together aspiring technologists and
-                  future entrepreneurs, fostering a spirit of innovation and
-                  collaboration in a competitive yet supportive environment.
-                </Fade>
-              </div>
-              <Fade
-                direction="down"
-                duration={1500}
-                className="h-fit md:w-[30%] w-[90%] overflow-hidden "
-              >
-                <IconCloudDemo/>
-              </Fade>
-            </div>
-            {/* <ParticlesContainer /> */}
-            <div
-              className="relative z-[555] w-full h-fit flex justify-between items-center md:flex-row-reverse flex-col"
-              id="domain"
-            >
-              <div className="writtenArea flex flex-col h-full w-full md:w-[50%] px-7 justify-between items-center ">
-                <Fade
-                  direction="down"
-                  triggerOnce
-                  className="w-full text-center text-4xl text-white font-bold py-3"
-                >
-                  Domain for Projects
-                </Fade>
-                <div className="w-full h-fit">
-                  <Fade
-                    direction="left"
-                    triggerOnce
-                    className="w-full text-justify text-xl text-white py-3"
-                  >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Dolores corporis facilis accusantium voluptate porro cum odit
-                    deserunt error, at eos cupiditate debitis dignissimos?
-                    Provident quibusdam expedita autem facilis corporis
-                    architecto.
-                  </Fade>
-                  <Fade
-                    direction="right"
-                    triggerOnce
-                    className="w-full text-justify text-xl text-white  py-3"
-                  >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aperiam nobis tenetur nulla consectetur? Distinctio impedit
-                    ab, illo, veritatis deleniti cumque illum laboriosam facilis
-                    quia assumenda vitae sint dolores in suscipit?
-                  </Fade>
-                </div>
-              </div>
-              <Fade
-                className="h-fit md:w-[40%] w-full"
-                direction="left"
-                triggerOnce
-              >
-                <img src="/alldomain.png" className="h-auto w-full" />
-              </Fade>
-            </div>
-            <div
-              className="PrizeArea h-fit py-24 w-full flex justify-around items-center flex-col relative z-[555]"
-              id="prize"
-            >
-              <Fade
-                className="w-full  h-auto md:text-[5rem] font-extrabold text-white flex justify-center items-center pb-6 text-5xl"
-                direction="down"
-                duration={1300}
-              >
-                Our Prizes
-              </Fade>
-              <div className="h-fit w-full flex justify-around items-center flex-wrap flex-row ">
-                <Fade direction="right" duration={800} delay={500} triggerOnce>
-                  <AnimatedPinDemo
-                    className="w-[20rem] h-[25rem]"
-                    title="Gift of Rs 6000"
-                    position="second"
-                    desc="Win exciting tech gift and gadget of worth 6000"
-                    image="/techKurukshetra/secondPrize.jpg"
-                  />
-                </Fade>
-                <Fade direction="left" duration={800} delay={500} triggerOnce>
-                  <AnimatedPinDemo
-                    className="w-[20rem] h-[25rem]"
-                    title="Gift and goodies of Rs 10000"
-                    desc="Win exciting tech gifts,goodies and gadgets of worth 10000"
-                    position="First"
-                    image="/techKurukshetra/firstPrize.jpg"
-                  />
-                </Fade>
-                <Fade direction="right" duration={800} delay={500} triggerOnce>
-                  <AnimatedPinDemo
-                    className="w-[20rem] h-[25rem]"
-                    title="Gift of Rs 3000"
-                    position="Third"
-                    desc="Win exciting tech gifts and gadgets of worth 3000"
-                    image="/techKurukshetra/thirdPrize.png"
-                  />
-                </Fade>
-              </div>
-            </div>
-            <div
-              className="paartnearArea w-screen h-fit flex items-center justify-between flex-col relative z-[555]"
-              id="partner"
-            >
-              <Fade direction="down">
-                <div className="md:text-[5rem] text-[2.5rem] font-extrabold text-white italic h-auto w-full">
-                  Our Partners
-                </div>
-              </Fade>
-              <div className="h-full  w-[90%] flex flex-col gap-8">
-                <PartnerShip />
-              </div>
-            </div>
-            <div
-              className="relative z-[555] h-fit w-screen  flex flex-col justify-center items-center py-10 md:py-5 "
-              id="timeline"
-            >
-              <Fade direction="down" triggerOnce>
-                <h1 className="md:text-6xl  text-4xl py-6 font-bold text-white">
-                  Timeline
-                </h1>
-              </Fade>
-              <div className="md:h-[75%] h-full w-full box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;">
-                <StickyScroll content={timelineData} />
-              </div>
-            </div>
-            <div
-              className="h-fit w-full flex flex-col gap-3 items-center justify-center"
-              id="team"
-            >
-              <div className="w-full h-fit text-white text-6xl font-extrabold text-center">
-                Our Teams
-              </div>
-              <div className="w-full  h-fit flex">
-                <TabsDemo />
-              </div>
-            </div>
-            <Rules />
-            <Faq />
-            <Footer />
+        
+
+<div className="w-full h-auto bg-gradient-to-t from-black via-purple-950 to-pink-950/65">
+          <div className="w-full h-[25rem] sm:min-h-fit flex justify-center items-center relative ">
+
+
+            <Countdown dt={days_difference * 24 * 60 * 60 * 1000} />
           </div>
+          <div className="h-auto w-full relative ">
+
+            <div className=" h-fit w-full relative inset-0 z-[555] ">
+              <div
+                className=" z-20 md:h-screen h-fit py-7 w-full flex justify-around md:flex-row flex-col items-center   "
+                id="about"
+              >
+                <div className="h-auto md:w-[40%] w-[90%] text-justify text-white flex flex-col justify-center items-center gap-5 py-4">
+                  <Fade
+                    direction="down"
+                    duration={800}
+                    className="text-5xl font-bold "
+                  >
+                    About Us
+                  </Fade>
+                  <Fade direction="right" duration={800}>
+                    Tech Kurukshetra is a premier technical project competition
+                    organized by the Department of Computer Science and Engineering
+                    (IoT, CS, and BT) in collaboration with the Innovation and
+                    Entrepreneurship Development Cell (IEDC).
+                  </Fade>
+                  <Fade direction="left" duration={900} delay={500}>
+                    This event serves as a dynamic platform for students to showcase
+                    their innovative projects and technical prowess, encouraging
+                    creativity, problem-solving, and real-world application of their
+                    skills.
+                  </Fade>
+                  <Fade direction="right" duration={1200} delay={100}>
+                    Tech Kurukshetra brings together aspiring technologists and
+                    future entrepreneurs, fostering a spirit of innovation and
+                    collaboration in a competitive yet supportive environment.
+                  </Fade>
+                </div>
+                <Fade
+                  direction="down"
+                  duration={1500}
+                  className="h-fit md:w-[30%] w-[90%] overflow-hidden "
+                >
+                  <IconCloudDemo />
+                </Fade>
+              </div>
+              {/* <ParticlesContainer /> */}
+              <div
+                className="relative z-[555] w-full h-fit flex justify-between items-center md:flex-row-reverse flex-col"
+                id="domain"
+              >
+                <div className="writtenArea flex flex-col h-full w-full md:w-[50%] px-7 justify-between items-center ">
+                  <Fade
+                    direction="down"
+                    triggerOnce
+                    className="w-full text-center text-4xl text-white font-bold py-3"
+                  >
+                    Domain for Projects
+                  </Fade>
+                  <div className="w-full h-fit">
+                    <Fade
+                      direction="left"
+                      triggerOnce
+                      className="w-full text-justify text-xl text-white py-3"
+                    >
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Dolores corporis facilis accusantium voluptate porro cum odit
+                      deserunt error, at eos cupiditate debitis dignissimos?
+                      Provident quibusdam expedita autem facilis corporis
+                      architecto.
+                    </Fade>
+                    <Fade
+                      direction="right"
+                      triggerOnce
+                      className="w-full text-justify text-xl text-white  py-3"
+                    >
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aperiam nobis tenetur nulla consectetur? Distinctio impedit
+                      ab, illo, veritatis deleniti cumque illum laboriosam facilis
+                      quia assumenda vitae sint dolores in suscipit?
+                    </Fade>
+                  </div>
+                </div>
+                <Fade
+                  className="h-fit md:w-[40%] w-full"
+                  direction="left"
+                  triggerOnce
+                >
+                  <img src="/alldomain.png" className="h-auto w-full" />
+                </Fade>
+              </div>
+              <div
+                className="PrizeArea h-fit py-24 w-full flex justify-around items-center flex-col relative z-[555]"
+                id="prize"
+              >
+                <Fade
+                  className="w-full  h-auto md:text-[5rem] font-extrabold text-white flex justify-center items-center pb-6 text-5xl"
+                  direction="down"
+                  duration={1300}
+                >
+                  Our Prizes
+                </Fade>
+                <div className="h-fit w-full flex justify-around items-center flex-wrap flex-row ">
+                  <Fade direction="right" duration={800} delay={500} triggerOnce>
+                    <AnimatedPinDemo
+                      className="w-[20rem] h-[25rem]"
+                      title="Gift of Rs 6000"
+                      position="second"
+                      desc="Win exciting tech gift and gadget of worth 6000"
+                      image="/techKurukshetra/secondPrize.jpg"
+                    />
+                  </Fade>
+                  <Fade direction="left" duration={800} delay={500} triggerOnce>
+                    <AnimatedPinDemo
+                      className="w-[20rem] h-[25rem]"
+                      title="Gift and goodies of Rs 10000"
+                      desc="Win exciting tech gifts,goodies and gadgets of worth 10000"
+                      position="First"
+                      image="/techKurukshetra/firstPrize.jpg"
+                    />
+                  </Fade>
+                  <Fade direction="right" duration={800} delay={500} triggerOnce>
+                    <AnimatedPinDemo
+                      className="w-[20rem] h-[25rem]"
+                      title="Gift of Rs 3000"
+                      position="Third"
+                      desc="Win exciting tech gifts and gadgets of worth 3000"
+                      image="/techKurukshetra/thirdPrize.png"
+                    />
+                  </Fade>
+                </div>
+              </div>
+              <div
+                className="paartnearArea w-screen h-fit flex items-center justify-between flex-col relative z-[555]"
+                id="partner"
+              >
+                <Fade direction="down">
+                  <div className="md:text-[5rem] text-[2.5rem] font-extrabold text-white italic h-auto w-full">
+                    Our Partners
+                  </div>
+                </Fade>
+                <div className="h-full  w-[90%] flex flex-col gap-8">
+                  <PartnerShip />
+                </div>
+              </div>
+              <div
+                className="relative z-[555] h-fit w-screen  flex flex-col justify-center items-center py-10 md:py-5 "
+                id="timeline"
+              >
+                <Fade direction="down" triggerOnce>
+                  <h1 className="md:text-6xl  text-4xl py-6 font-bold text-white">
+                    Timeline
+                  </h1>
+                </Fade>
+                <div className="md:h-[75%] h-full w-full box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;">
+                  <StickyScroll content={timelineData} />
+                </div>
+              </div>
+              <div
+                className="h-fit w-full flex flex-col gap-3 items-center justify-center"
+                id="team"
+              >
+                <div className="w-full h-fit text-white text-6xl font-extrabold text-center">
+                  Our Teams
+                </div>
+                <div className="w-full  h-fit flex">
+                  <TabsDemo />
+                </div>
+              </div>
+              <Rules />
+              <Faq />
+              <Footer />
+            </div>
+          </div>
+        </div> 
         </div>
         </div>
-    </div>
   );
 }
