@@ -30,15 +30,13 @@ import {
   Twitter,
   Wheat,
 } from "lucide-react";
-import OrbitingCircles from "@/components/compitition/techKurukshetra/components/magicui/orbiting-circles";
 
 export default function Home() {
   let dt = new Date().getTime();
-  let main_dt = new Date("Septembar 27, 2024,9:30:00").getTime();
+  let main_dt = new Date("October 26, 2024,9:30:00").getTime();
   const days_difference = Math.abs(main_dt - dt) / (1000 * 60 * 60 * 24);
 
   const [loading, setLoading] = useState(true);
-  const [isPlaying, setIsPlaying] = useState(true); // Initially playing because of autoplay
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -309,16 +307,16 @@ export default function Home() {
                     src='rombosWhite.png'
                     className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                   />
-                  23.09.2024
+                  24.09.2024
                 </span>
                 <p className='px-9 w-full mx-auto font-[300]'>
-                Tech Kurukshetra is live now. Dive into a world of innovation, cutting-edge projects, and limitless possibilities !
+                Tech Kurukshetra is live now. Dive into the world of innovation cutting-edge projects and explore limitless possibilities !
                 </p>
               </div>
 
             </Fade>
             
-            <Fade direction='down' triggerOnce className="w-[80%] lg:w-[70%] ">
+            <Fade direction='left' triggerOnce className="w-[80%] lg:w-[70%] ">
 
               <div className="items w-[100%] h-auto py-5 bg-blue-200 border-purple-300 border-2 rounded-lg pl-9 relative  hover:translate-x-[2rem] duration-1000 ease-in-out ml-5 lg:ml-0 hover:rotate-image cursor-pointer shadow-lg shadow-white">
                 <span className='h-fit w-auto rounded-2xl bg-black absolute -left-14 -top-7 text-white text-center py-2 px-4'>
@@ -326,16 +324,16 @@ export default function Home() {
                     src='rombosWhite.png'
                     className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                   />
-                  24.09.2024
+                  25.09.2024
                 </span>
                 <p className='px-9 w-full mx-auto font-[400]'>
-                We are thrilling to announce that the registration is started already. So what are you waiting for ? Go and  Register .
+                We are thrilled to announce that the registration has started already. So what are you waiting for ? Go and  Register !
                 </p>
               </div>
 
             </Fade>
             
-            <Fade direction='down' triggerOnce className="w-[80%] lg:w-[70%] ">
+            <Fade direction='right' triggerOnce className="w-[80%] lg:w-[70%] ">
 
               <div className="items w-[100%] h-auto py-5 bg-blue-300 border-blue-400 border-2 rounded-lg pl-9 relative hover:translate-x-[2rem] duration-1000 ease-in-out ml-5 lg:ml-0 hover:rotate-image cursor-pointer shadow-lg shadow-white">
                 <span className='h-fit w-auto rounded-2xl bg-black absolute -left-14 -top-7 text-white text-center py-2 px-4'>
@@ -346,13 +344,13 @@ export default function Home() {
                   15.10.2024
                 </span>
                 <p className='px-9 w-full mx-auto font-[500]'>
-                Registrations for Tech Kurukshetra are now closed—get ready to witness groundbreaking innovations! Stay tuned—selected teams for Tech Kurukshetra will be announced soon!
+                The  registration for Tech Kurukshetra is now closed. Get reay to witness ground breaking innovation. Stay tuned!
                 </p>
               </div>
 
             </Fade>
             
-            <Fade direction='down' triggerOnce className="w-[80%] lg:w-[70%]">
+            <Fade direction='up' triggerOnce className="w-[80%] lg:w-[70%]">
 
               <div className="items w-[100%] h-auto py-5 bg-blue-400 border-blue-500 border-2 rounded-lg pl-9 relative shadow-lg hover:translate-x-[2rem] duration-1000 ease-in-out ml-5 lg:ml-0 hover:rotate-image cursor-pointer shadow-white">
                 <span className='h-fit w-auto rounded-2xl bg-black absolute -left-14 -top-7 text-white text-center py-2 px-4'>
@@ -363,7 +361,7 @@ export default function Home() {
                   20.10.2024
                 </span>
                 <p className='px-9 w-full mx-auto font-[600]'>
-                The selected teams for Tech Kurukshetra will be updated—check out the innovators making it to the next stage!
+                The selected teams for Tech Kurukshetra will be declared.
                 </p>
               </div>
 
@@ -380,7 +378,7 @@ export default function Home() {
                   26.10.2024
                 </span>
                 <p className='px-9 w-full mx-auto font-[700]'>
-                We will start our exciting event on 9:00 am sharp. Come  everyone for make this event really very big .
+                The competition will start from 9:00 am sharp. Lets join together to make the event successful.
                 </p>
               </div>
 
@@ -397,7 +395,7 @@ export default function Home() {
                   26.10.2024
                 </span>
                 <p className='px-9 w-full mx-auto font-[800]'>
-                Tech Kurukshetra will finished at 5:00pm. We will come back again with much much more things in it !
+                Tech Kurukshetra will end at 5:00pm. We will come back again with much much interesting events in the upcoming days .
                 </p>
               </div>
 

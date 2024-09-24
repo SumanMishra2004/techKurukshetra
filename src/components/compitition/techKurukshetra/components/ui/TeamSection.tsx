@@ -246,15 +246,6 @@ const TeamSection: React.FC<TeamSectionProps> = ({ type }) => {
       image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727108730/tech%20kurukshetra%20team/f1tlvzqxg90eongcypc5.jpg",
     },
   ];
-  const [loading, setLoading] = useState(true);
-
-  setTimeout(() => {
-    setLoading(false);
-  }, 2000);
-
-  if (loading) {
-    return <Loader />;
-  }
   return (
     <Swiper
       effect={"coverflow"}
