@@ -8,21 +8,30 @@ export function TabsDemo() {
   const tabs = [
 
 
-    {
-      title: "Mentor",
-      value: "mentor",
-      content: (
+    // {
+    //   title: "Mentor",
+    //   value: "mentor",
+    //   content: (
 
-        <DummyContent type="mentor" />
+    //     <DummyContent type="mentor" />
 
-      ),
-    },
+    //   ),
+    // },
     {
       title: "Core",
       value: "core",
       content: (
 
         <DummyContent type="core" />
+
+      ),
+    },
+    {
+      title: "Members",
+      value: "member",
+      content: (
+
+        <DummyContent type="member" />
 
       ),
     },

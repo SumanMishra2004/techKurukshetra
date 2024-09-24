@@ -101,7 +101,7 @@ export default function Home() {
 
                 <img
                   src="/manAi.png"
-                  className="h-full w-fit overflow-hidden text-white relative  -right-28 -bottom-28  z-0 hidden lg:block -rotate-12 "
+                  className="h-full w-fit overflow-hidden text-white relative  -right-28 -bottom-28  z-0 hidden lg:block -rotate-12 mix-blend-screen"
                 />
               </Fade>
 
@@ -214,21 +214,18 @@ export default function Home() {
                       triggerOnce
                       className="w-full text-justify text-xl text-white py-3"
                     >
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Dolores corporis facilis accusantium voluptate porro cum odit
-                      deserunt error, at eos cupiditate debitis dignissimos?
-                      Provident quibusdam expedita autem facilis corporis
-                      architecto.
+                     We are excited to announce our upcoming Project Competition, an excellent opportunity for innovators and problem-solvers to showcase their talent. The event features an Open Project Session, where participants can present their projects to a wide audience, including industry experts, mentors, and fellow enthusiasts. This session allows participants to engage directly with attendees, gather feedback, and network with peers.
+
+
                     </Fade>
                     <Fade
                       direction="right"
                       triggerOnce
                       className="w-full text-justify text-xl text-white  py-3"
                     >
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Aperiam nobis tenetur nulla consectetur? Distinctio impedit
-                      ab, illo, veritatis deleniti cumque illum laboriosam facilis
-                      quia assumenda vitae sint dolores in suscipit?
+                      Whether you are working on cutting-edge technology, innovative solutions, or impactful community projects, this competition is the perfect platform to highlight your work and take it to the next level. We encourage all participants to come prepared to explain their ideas, demonstrate their projects, and inspire others with their creativity and hard work.
+
+
                     </Fade>
                   </div>
                 </div>
@@ -303,9 +300,112 @@ export default function Home() {
                     Timeline
                   </h1>
                 </Fade>
-                <div className="md:h-[75%] h-full w-full box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;">
-                  <StickyScroll content={timelineData} />
-                </div>
+                <div className="w-full h-fit flex flex-col gap-9 md:items-center items-start my-8" >
+            <Fade direction='down' triggerOnce className="w-[80%] lg:w-[70%] ">
+
+              <div className="items w-[100%] h-auto py-5 bg-blue-100 border-purple-200 border-2 rounded-lg pl-9 relative  hover:translate-x-[2rem] duration-1000 ease-in-out ml-5 lg:ml-0 hover:rotate-image cursor-pointer shadow-lg shadow-white">
+                <span className='h-fit w-auto rounded-2xl bg-black absolute -left-14 -top-7 text-white text-center py-2 px-4'>
+                  <img
+                    src='rombosWhite.png'
+                    className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
+                  />
+                  23.09.2024
+                </span>
+                <p className='px-9 w-full mx-auto font-[300]'>
+                Tech Kurukshetra is live now. Dive into a world of innovation, cutting-edge projects, and limitless possibilities !
+                </p>
+              </div>
+
+            </Fade>
+            
+            <Fade direction='down' triggerOnce className="w-[80%] lg:w-[70%] ">
+
+              <div className="items w-[100%] h-auto py-5 bg-blue-200 border-purple-300 border-2 rounded-lg pl-9 relative  hover:translate-x-[2rem] duration-1000 ease-in-out ml-5 lg:ml-0 hover:rotate-image cursor-pointer shadow-lg shadow-white">
+                <span className='h-fit w-auto rounded-2xl bg-black absolute -left-14 -top-7 text-white text-center py-2 px-4'>
+                  <img
+                    src='rombosWhite.png'
+                    className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
+                  />
+                  24.09.2024
+                </span>
+                <p className='px-9 w-full mx-auto font-[400]'>
+                We are thrilling to announce that the registration is started already. So what are you waiting for ? Go and  Register .
+                </p>
+              </div>
+
+            </Fade>
+            
+            <Fade direction='down' triggerOnce className="w-[80%] lg:w-[70%] ">
+
+              <div className="items w-[100%] h-auto py-5 bg-blue-300 border-blue-400 border-2 rounded-lg pl-9 relative hover:translate-x-[2rem] duration-1000 ease-in-out ml-5 lg:ml-0 hover:rotate-image cursor-pointer shadow-lg shadow-white">
+                <span className='h-fit w-auto rounded-2xl bg-black absolute -left-14 -top-7 text-white text-center py-2 px-4'>
+                  <img
+                    src='rombosWhite.png'
+                    className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
+                  />
+                  15.10.2024
+                </span>
+                <p className='px-9 w-full mx-auto font-[500]'>
+                Registrations for Tech Kurukshetra are now closed—get ready to witness groundbreaking innovations! Stay tuned—selected teams for Tech Kurukshetra will be announced soon!
+                </p>
+              </div>
+
+            </Fade>
+            
+            <Fade direction='down' triggerOnce className="w-[80%] lg:w-[70%]">
+
+              <div className="items w-[100%] h-auto py-5 bg-blue-400 border-blue-500 border-2 rounded-lg pl-9 relative shadow-lg hover:translate-x-[2rem] duration-1000 ease-in-out ml-5 lg:ml-0 hover:rotate-image cursor-pointer shadow-white">
+                <span className='h-fit w-auto rounded-2xl bg-black absolute -left-14 -top-7 text-white text-center py-2 px-4'>
+                  <img
+                    src='rombosWhite.png'
+                    className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
+                  />
+                  20.10.2024
+                </span>
+                <p className='px-9 w-full mx-auto font-[600]'>
+                The selected teams for Tech Kurukshetra will be updated—check out the innovators making it to the next stage!
+                </p>
+              </div>
+
+            </Fade>
+            
+            <Fade direction='down' triggerOnce className="w-[80%] lg:w-[70%]">
+
+              <div className="items w-[100%] h-auto py-5 bg-blue-500 border-blue-600 border-2 rounded-lg pl-9 relative shadow-lg hover:translate-x-[2rem] duration-1000 ease-in-out ml-5 lg:ml-0 hover:rotate-image cursor-pointer shadow-white">
+                <span className='h-fit w-auto rounded-2xl bg-black absolute -left-14 -top-7 text-white text-center py-2 px-4'>
+                  <img
+                    src='rombosWhite.png'
+                    className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
+                  />
+                  26.10.2024
+                </span>
+                <p className='px-9 w-full mx-auto font-[700]'>
+                We will start our exciting event on 9:00 am sharp. Come  everyone for make this event really very big .
+                </p>
+              </div>
+
+            </Fade>
+            
+            <Fade direction='down' triggerOnce className="w-[80%] lg:w-[70%]">
+
+              <div className="items w-[100%] h-auto py-5 bg-blue-600 border-blue-950 border-2 rounded-lg pl-9 relative shadow-lg hover:translate-x-[2rem] duration-1000 ease-in-out ml-5 lg:ml-0 hover:rotate-image cursor-pointer shadow-white">
+                <span className='h-fit w-auto rounded-2xl bg-black absolute -left-14 -top-7 text-white text-center py-2 px-4'>
+                  <img
+                    src='rombosWhite.png'
+                    className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
+                  />
+                  26.10.2024
+                </span>
+                <p className='px-9 w-full mx-auto font-[800]'>
+                Tech Kurukshetra will finished at 5:00pm. We will come back again with much much more things in it !
+                </p>
+              </div>
+
+            </Fade>
+            
+
+
+          </div>
               </div>
               <div
                 className="h-fit w-full flex flex-col gap-3 items-center justify-center"

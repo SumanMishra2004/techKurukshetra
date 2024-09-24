@@ -32,7 +32,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ type }) => {
     {
       position: "core",
       name: "Chiranjit Singha",
-      designation: "Something Lead",
+      designation: "Management Lead",
       image:
         "https://res.cloudinary.com/dvky83edw/image/upload/v1725479251/tech%20kurukshetra%20team/xiqjhwaw3ton1ttfl4la.jpg",
       LinkedLnId: "https://www.linkedin.com/in/chiranjit-singha-971273291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -42,17 +42,26 @@ const TeamSection: React.FC<TeamSectionProps> = ({ type }) => {
     {
       position: "core",
       name: "Arya Jana",
-      designation: "Something Lead",
+      designation: "Management Lead",
       image:
         "https://res.cloudinary.com/dvky83edw/image/upload/v1725479250/tech%20kurukshetra%20team/hchmjt0cujtkhx8iixsp.jpg",
-      LinkedLnId: "amazing peoples csisvivhdfvi dfahfsfdv nv vdhdon dkvxndidoh",
+      LinkedLnId: "https://www.linkedin.com/in/arya-jana-69106128a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       InstaId:"https://www.instagram.com/_.roger_._5288?igsh=MXV4YjZ4OG9yazh4Mg=="
     },
 
     {
       position: "core",
+      name: "Iffat Jahan",
+      designation: "Social Lead",
+      image:
+        "https://res.cloudinary.com/dvky83edw/image/upload/v1727025653/tech%20kurukshetra%20team/miwtwi4kopdlqdg1d5i6.jpg",
+      LinkedLnId: "https://www.linkedin.com/in/iffat-jahan-098286261",
+      InstaId:"https://www.instagram.com/__.iffat._?igsh=MTZ3d2Q2djE5cXVjdg=="
+    },
+    {
+      position: "core",
       name: "Amitabh Daripa",
-      designation: "Something Lead",
+      designation: "Social Lead",
       image:
         "https://res.cloudinary.com/dvky83edw/image/upload/v1725479249/tech%20kurukshetra%20team/rtqdgfrembwo4btw0nh7.jpg",
       LinkedLnId: "https://www.linkedin.com/in/amitabh-daripa-1635a3257/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -62,7 +71,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ type }) => {
     {
       position: "core",
       name: "Suman Mishra",
-      designation: "Something Lead",
+      designation: "Web Developer",
       image:
         "https://res.cloudinary.com/dvky83edw/image/upload/v1724981039/tech%20kurukshetra%20team/myimage_cfrpdi.jpg",
       LinkedLnId: "https://www.linkedin.com/in/suman-mishra420",
@@ -71,85 +80,170 @@ const TeamSection: React.FC<TeamSectionProps> = ({ type }) => {
     {
       position: "core",
       name: "Adarsh Giri",
-      designation: "Something Lead",
+      designation: "Tech Lead",
       image:
         "https://res.cloudinary.com/dvky83edw/image/upload/v1725479249/tech%20kurukshetra%20team/ividvd2ttwdtibdh7fkp.webp",
       LinkedLnId: "https://www.linkedin.com/in/adarsh-giri-63a89022a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       InstaId:"https://www.instagram.com/iamadarshgiri?igsh=MXVuanV2dWt5cnQxbg=="
     },
     {
-      position: "core",
+      position: "member",
       name: "Sankalpa Dutta",
-      designation: "Something Lead",
+      designation: "Tech Member",
       image:
         "https://res.cloudinary.com/dvky83edw/image/upload/v1725479249/tech%20kurukshetra%20team/q8onvfoeleph1vf0qw10.jpg",
       LinkedLnId:"http://www.linkedin.com/in/sankalpa-dutta-09187525b",
       InstaId:"https://www.instagram.com/dutta_sankalpa?igsh=aHh0MGt0dmpndDM5"
     },
     {
-      position: "core",
+      position: "member",
       name: "Yash Kumar Giri",
-      designation: "Something Lead",
+      designation: "Tech Member",
       image:
         "https://res.cloudinary.com/dvky83edw/image/upload/v1725479251/tech%20kurukshetra%20team/lk20qo02djwyqctdb8kt.jpg",
       LinkedLnId: "https://www.linkedin.com/in/yash-kumar-giri-68a92324a",
       InstaId:"https://www.instagram.com/_duh_its_yash_?igsh=MWxsYjY1MDBoYXF0aQ=="
     },
     {
-      position: "core",
+      position: "member",
       name: "Shubhranshu Ghosh",
-      designation: "Something Lead",
+      designation: "PR Member",
       image:
         "https://res.cloudinary.com/dvky83edw/image/upload/v1725480655/tech%20kurukshetra%20team/bz1ldswbmobv5dxsijja.jpg",
       LinkedLnId: "",
       InstaId:"https://www.instagram.com/ghosh.shubhranshu?igsh=MXFwdmFwaGhtZzNzcQ%3D%3D&utm_source=qr"
     },
     {
-      position: "core",
+      position: "member",
+      name: "Anirban Bhandari",
+      designation: "PR Member",
+      image:
+        "https://res.cloudinary.com/dvky83edw/image/upload/v1727025672/tech%20kurukshetra%20team/me7ull3wdixet9minxcb.jpg",
+      LinkedLnId: "",
+      InstaId:"https://www.instagram.com/anirban_http404?igsh=MTgyczBtZzY3MDBsaw=="
+    },
+    {
+      position: "member",
       name: "Akash Mondal",
-      designation: "Something Lead",
+      designation: "Tech Member",
       image:
         "https://res.cloudinary.com/dvky83edw/image/upload/v1725480238/tech%20kurukshetra%20team/ilaii7wiqdvcmoe5zw6s.jpg",
       LinkedLnId: "https://www.linkedin.com/in/akash-mondal-518641267",
       InstaId:"https://www.instagram.com/aakash_mondal18?igsh=MW92MGZpazg1bXl3Mw=="
     },
     {
-      position: "core",
-      name: "Anjali Singh",
-      designation: "Something Lead",
+      position: "member",
+      name: "Abeer lal Nandi",
+      designation: "PR & Social Member",
       image:
-        "https://res.cloudinary.com/dvky83edw/image/upload/v1725484114/tech%20kurukshetra%20team/ysttdf7rnlnjb2wr39bo.jpg",
+        "https://res.cloudinary.com/dvky83edw/image/upload/v1727025652/tech%20kurukshetra%20team/xz3upg1s9omyhfak0kvb.jpg",
+      LinkedLnId: "https://www.linkedin.com/in/abeerlal-nandi-23286b325",
+      InstaId:"https://www.instagram.com/abeerlal?igsh=bnV3cHVqdWxwODFj&utm_source=qr"
+    },
+    {
+      position: "member",
+      name: "Aritrik Ghosh",
+      designation:"Designer",
+      image:
+        "https://res.cloudinary.com/dvky83edw/image/upload/v1727071719/tech%20kurukshetra%20team/bgtof9av1uskngraqzz2.jpg",
+      LinkedLnId: "https://www.linkedin.com/in/aritrik-ghosh-72022a27a",
+      InstaId:"https://www.linkedin.com/in/aritrik-ghosh-72022a27a"
+    },
+    {
+      position: "member",
+      name: "Anjali Singh",
+      designation:"Designer",
+      image:
+        "https://res.cloudinary.com/dvky83edw/image/upload/v1727070811/tech%20kurukshetra%20team/wcako5xc53pqn8rklpe1.jpg",
       LinkedLnId: "https://www.linkedin.com/in/anjali-singh-94687b28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       InstaId:"https://www.instagram.com/asr__writes2?utm_source=qr&igsh=aDRhOTJwcTVsM21l"
     },
     {
-      position: "mentor",
-      name: "suman mishra",
-      designation: "Something Lead",
-      image: "/somthing.png",
-      LinkedLnId: "amazing peoples csisvivhdfvi dfahfsfdv nv vdhdon dkvxndidoh",
+      position: "member",
+      name: "SUBHRADWIP DAS",
+      designation:"Designer",
+      image:
+        "https://res.cloudinary.com/dvky83edw/image/upload/v1727027235/tech%20kurukshetra%20team/of2mrgdm7wwnq1rruurc.jpg",
+      LinkedLnId: "https://www.linkedin.com/in/anjali-singh-94687b28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      InstaId:"https://www.instagram.com/asr__writes2?utm_source=qr&igsh=aDRhOTJwcTVsM21l"
+    },
+   
+    
+    // {
+    //   position: "mentor",
+    //   name: "suman mishra",
+    //   designation: "Something Lead",
+    //   image: "/somthing.png",
+    //   LinkedLnId: "amazing peoples csisvivhdfvi dfahfsfdv nv vdhdon dkvxndidoh",
+    // },
+    
+    {
+      position: "volunteer",
+      name: "Subhradip Mondal",
+      designation: "Volunteer",
+      image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727070812/tech%20kurukshetra%20team/l4tqyvemqpa1qqi2ro95.jpg",
+    },
+    {
+      position: "volunteer",
+      name: "Ankur Saha",
+      designation: "Volunteer",
+      image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727070812/tech%20kurukshetra%20team/jzvgddiiivzw81kfnbe2.jpg",
+      
+    },
+    {
+      position: "volunteer",
+      name: "Dipchandri Ghosh",
+      designation: "Volunteer",
+      image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727070811/tech%20kurukshetra%20team/ydechhegxrfdbaugh7vm.jpg",
+    },
+    {
+      position: "volunteer",
+      name: "SOUMYADIP BOSE",
+      designation: "Volunteer",
+      image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727071305/tech%20kurukshetra%20team/hluubnjtbpjhndhtqnkh.jpg",
+    },
+    {
+      position: "volunteer",
+      name: "Shubham Sadhak",
+      designation: "Volunteer",
+      image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727071302/tech%20kurukshetra%20team/a9li3a2oa64zqhaodr9y.jpg",
+    },
+    {
+      position: "volunteer",
+      name: "DIPTADIP CHOUDHURY",
+      designation: "Volunteer",
+      image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727074711/tech%20kurukshetra%20team/plbz2ldhv4xvvrfb8dwe.jpg",
+    },
+    {
+      position: "volunteer",
+      name: "Sourja Goswamy",
+      designation: "Volunteer",
+      image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727107605/tech%20kurukshetra%20team/ph74jy7avdind5pgfwye.jpg",
     },
     
     {
       position: "volunteer",
-      name: "suman mishra",
-      designation: "Something Lead",
-      image: "/somthing.png",
-      LinkedLnId: "amazing peoples csisvivhdfvi dfahfsfdv nv vdhdon dkvxndidoh",
+      name: " Indrani Paul",
+      designation: "Volunteer",
+      image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727107605/tech%20kurukshetra%20team/ovvqd7jrpe1eoowoxquy.jpg",
     },
     {
       position: "volunteer",
-      name: "suman mishra",
-      designation: "Something Lead",
-      image: "/somthing.png",
-      LinkedLnId: "amazing peoples csisvivhdfvi dfahfsfdv nv vdhdon dkvxndidoh",
+      name: "Biyas Ray Chaudhuri",
+      designation: "Volunteer",
+      image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727107604/tech%20kurukshetra%20team/hhewdulitti2pqnl4aoj.jpg",
     },
     {
       position: "volunteer",
-      name: "suman mishra",
-      designation: "Something Lead",
-      image: "/somthing.png",
-      LinkedLnId: "amazing peoples csisvivhdfvi dfahfsfdv nv vdhdon dkvxndidoh",
+      name: "Divyanshi Srivastava",
+      designation: "Volunteer",
+      image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727107604/tech%20kurukshetra%20team/yhjtokyrsx8wwuszdyux.jpg",
+    },
+    {
+      position: "volunteer",
+      name: "Subhojit kar",
+      designation: "Volunteer",
+      image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727108730/tech%20kurukshetra%20team/f1tlvzqxg90eongcypc5.jpg",
     },
   ];
   const [loading, setLoading] = useState(true);
@@ -187,7 +281,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ type }) => {
         .map((value, index) => (
           <SwiperSlide
             key={index}
-            className="swiperslideFaculty shadow-2xl imagecard bg-black cursor-cell"
+            className="swiperslideFaculty shadow-2xl imagecard bg-black cursor-grab"
           >
             <Fade
               direction="down"
@@ -250,7 +344,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ type }) => {
             </Fade>
         
 
-              <div className=" w-[10rem] left-20 bg-slate-600/70 rounded-b-xl h-8 text-center text-white text-xl  absolute top-0 ">{value.designation}</div>
+              <div className=" w-[10rem] left-20 bg-slate-600/70 rounded-b-xl h-8 text-center text-white text-base  absolute top-0 ">{value.designation}</div>
           
             
           </SwiperSlide>
