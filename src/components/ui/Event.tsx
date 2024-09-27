@@ -23,7 +23,7 @@ function Event() {
 
 
             </Fade>
-            <span className='text-black text-2xl font-bold'> Prize pool: Worth 16k Rs</span>
+            <span className='text-black text-2xl font-bold'> Prize pool: Worth Rs 16k </span>
             <Fade direction="down" className="h-fit w-fit">
 
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
@@ -61,7 +61,7 @@ function Event() {
             <Fade direction="left" duration={700} className="md:text-2xl text-lg text-white font-medium text-start">
               Get creative and communicate complex technical concepts visually through posters. This competition encourages participants to design eye-catching and informative posters on any technological theme, presenting ideas in a way that is both visually appealing and educational.
             </Fade>
-            <span className='text-black text-xl font-bold'> Prize pool:Gift and all worth 1500 Rs </span>
+            <span className='text-black text-xl font-bold'> Prize pool:Gift and all worth Rs 1500  </span>
             <Fade direction="down" className="h-fit w-fit">
 
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
@@ -105,7 +105,7 @@ function Event() {
 
 
             </Fade>
-            <span className='text-black text-xl font-bold'> Prize pool:Gift and all Worth 1500 Rs </span>
+            <span className='text-black text-xl font-bold'> Prize pool:Gift and all Worth Rs 1500  </span>
             <Fade direction="down" className="h-fit w-fit">
 
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
@@ -151,7 +151,7 @@ function Event() {
               Test your writing skills in this technical writeup competition. Participants will be required to compose clear, concise, and insightful articles on current technology trends or innovations. This event focuses on how well you can articulate complex technical topics for a broad audience.
 
             </Fade>
-            <span className='text-black text-xl font-bold'> Prize pool: Gift and all worth 1500 Rs</span>
+            <span className='text-black text-xl font-bold'> Prize pool: Gift and all worth Rs 1500 </span>
             <Fade direction="down" className="h-fit w-fit">
 
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
@@ -173,7 +173,7 @@ function Event() {
 
         <div className='w-full h-[40rem] relative top-0 left-0 z-[999] flex items-center justify-center'>
           <div className="h-fit py-8 w-screen md:w-[90%] lg:w-[90%] mb-12 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-20 border border-gray-100 flex items-center flex-col gap-6">
-            <span className='md:text-7xl text-3xl text-black underline font-extrabold'>techScribe Rules</span>
+            <span className='md:text-7xl text-3xl text-black underline font-extrabold'>TechScribe Rules</span>
             <div className='text-black md:text-2xl text-xl'>
               -Only individual participation is allowed.<br />
               -Every individual must register themselves using the given form.<br />
