@@ -61,7 +61,7 @@ export default function Home() {
           <SMNavbar />
         </div>
       </div>
-      {loading && <Loader />}
+      {/* {loading && <Loader />} */}
       <div className={`w-full h-auto ${loading ? "hidden" : "block"} `}>
 
 
