@@ -17,7 +17,7 @@ function Footer() {
       <div className="h-full w-full flex justify-center items-center flex-col py-5">
         <img
           src="/techKurukshetra/logo.png"
-          className=" h-auto w-[22rem] "
+          className=" h-auto w-[22rem]"
         />
         <div className="handle flex w-[22rem] h-fit  items-center justify-between">
           <a

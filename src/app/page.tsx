@@ -274,7 +274,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        27.09.2024
+                        28.09.2024
                       </span>
                       <p className='px-9 w-full mx-auto font-[400] text-xl'>
                         We are thrilled to announce that the registration has started already. So what are you waiting for ? Go and  Register !
