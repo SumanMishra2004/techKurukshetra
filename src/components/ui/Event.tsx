@@ -23,7 +23,7 @@ function Event() {
 
 
             </Fade>
-            <span className='text-black text-2xl font-bold'> Prize pool: Worth 16k</span>
+            <span className='text-black text-2xl font-bold'> Prize pool: Worth 16k Rs</span>
             <Fade direction="down" className="h-fit w-fit">
 
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
@@ -61,7 +61,7 @@ function Event() {
             <Fade direction="left" duration={700} className="md:text-2xl text-lg text-white font-medium text-start">
               Get creative and communicate complex technical concepts visually through posters. This competition encourages participants to design eye-catching and informative posters on any technological theme, presenting ideas in a way that is both visually appealing and educational.
             </Fade>
-            <span className='text-black text-xl font-bold'> Prize pool:Gift and all worth 1500 </span>
+            <span className='text-black text-xl font-bold'> Prize pool:Gift and all worth 1500 Rs </span>
             <Fade direction="down" className="h-fit w-fit">
 
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
@@ -105,7 +105,7 @@ function Event() {
 
 
             </Fade>
-            <span className='text-black text-xl font-bold'> Prize pool:Gift and all Worth 1500 </span>
+            <span className='text-black text-xl font-bold'> Prize pool:Gift and all Worth 1500 Rs </span>
             <Fade direction="down" className="h-fit w-fit">
 
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
