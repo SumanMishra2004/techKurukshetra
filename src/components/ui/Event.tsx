@@ -61,7 +61,7 @@ function Event() {
             <Fade direction="left" duration={700} className="md:text-2xl text-lg text-white font-medium text-start">
               Get creative and communicate complex technical concepts visually through posters. This competition encourages participants to design eye-catching and informative posters on any technological theme, presenting ideas in a way that is both visually appealing and educational.
             </Fade>
-            <span className='text-black text-xl font-bold'> Prize pool:Gift and all worth Rs 1500  </span>
+            <span className='text-black text-xl font-bold'> Prize pool:Gift and Prizes worth Rs 1500  </span>
             <Fade direction="down" className="h-fit w-fit">
 
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
@@ -105,7 +105,7 @@ function Event() {
 
 
             </Fade>
-            <span className='text-black text-xl font-bold'> Prize pool:Gift and all Worth Rs 1500  </span>
+            <span className='text-black text-xl font-bold'> Prize pool:Gift and Prizes Worth Rs 1500  </span>
             <Fade direction="down" className="h-fit w-fit">
 
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
@@ -151,7 +151,7 @@ function Event() {
               Test your writing skills in this technical writeup competition. Participants will be required to compose clear, concise, and insightful articles on current technology trends or innovations. This event focuses on how well you can articulate complex technical topics for a broad audience.
 
             </Fade>
-            <span className='text-black text-xl font-bold'> Prize pool: Gift and all worth Rs 1500 </span>
+            <span className='text-black text-xl font-bold'> Prize pool: Gift and Prizes worth Rs 1500 </span>
             <Fade direction="down" className="h-fit w-fit">
 
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">

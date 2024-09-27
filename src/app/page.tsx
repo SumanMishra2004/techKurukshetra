@@ -257,7 +257,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        27.09.2024
+                        28.09.2024
                       </span>
                       <p className='px-9 w-full mx-auto font-[300] text-xl'>
                         Tech Kurukshetra is live now. Dive into the world of innovation cutting-edge projects and explore limitless possibilities !

@@ -65,7 +65,7 @@ const Countdown: React.FC<CountdownProps> = ({ dt }) => {
         <Fade direction="down" duration={1500}>
 
         <TypingAnimation duration={200}
-        className="w-full h-auto text-white md:text-[3.5rem] text-[2rem] font-extrabold pb-4 text-playfair" text="Waiting few more time "/>
+        className="w-full h-auto text-white md:text-[3.5rem] text-[2rem] font-extrabold pb-4 text-playfair" text="Let the countdown begin "/>
            
     
         </Fade>
