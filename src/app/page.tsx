@@ -39,16 +39,16 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const videoRef = useRef<HTMLVideoElement>(null);
 
-  // useEffect(() => {
-  //   // Simulate a data fetch
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 2000); // 2 seconds delay
-  // }, []);
+  useEffect(() => {
+    // Simulate a data fetch
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000); // 2 seconds delay
+  }, []);
 
-  // //  if (loading) {
-  // //    return <Loader />;
-  // //  }
+  //  if (loading) {
+  //    return <Loader />;
+  //  }
 
 
   return (
@@ -61,7 +61,7 @@ export default function Home() {
           <SMNavbar />
         </div>
       </div>
-      {/* {loading && <Loader />} */}
+       {loading && <Loader />} 
       <div className={`w-full h-auto ${loading ? "hidden" : "block"} `}>
 
 
