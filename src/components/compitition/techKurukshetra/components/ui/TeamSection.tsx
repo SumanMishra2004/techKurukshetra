@@ -335,7 +335,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ type }) => {
             </Fade>
         
 
-              <div className=" w-[10rem] left-20 bg-slate-600/70 rounded-b-xl h-8 text-center text-white text-base  absolute top-0 ">{value.designation}</div>
+              {/* <div className=" w-[10rem] left-20 bg-slate-600/70 rounded-b-xl h-8 text-center text-white text-base  absolute top-0 ">{value.designation}</div> */}
           
             
           </SwiperSlide>

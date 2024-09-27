@@ -1,4 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
+
+
+*{
+    font-family: 'poppins';
+}
+.personalText{
+    background: -webkit-linear-gradient(#eee, #021af6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

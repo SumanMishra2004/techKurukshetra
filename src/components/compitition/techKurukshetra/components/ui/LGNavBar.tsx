@@ -7,7 +7,7 @@ function NavBar() {
    
       <div className="navItems w-[95%] h-[90%] flex justify-between items-center ">
         <div className="Logoarea h-[4.5rem] w-[4.5rem] rounded-full ">
-          <Link href={'/'} className="h-full w-auto flex items-center">
+          <Link href={'/#first'} className="h-full w-auto flex items-center">
 
         <img src="/techKurukshetra/logo.png" alt="logo" className="scale-150 h-9 w-auto" />
           </Link>
