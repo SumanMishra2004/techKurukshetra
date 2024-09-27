@@ -31,7 +31,10 @@ import {
   Wheat,
 } from "lucide-react";
 import Events from '@/components/compitition/techKurukshetra/components/ui/Events'
+import Event from "@/components/ui/Event";
+
 export default function Home() {
+  
   let dt = new Date().getTime();
   let main_dt = new Date("October 26, 2024,9:30:00").getTime();
   const days_difference = Math.abs(main_dt - dt) / (1000 * 60 * 60 * 24);
@@ -61,7 +64,7 @@ export default function Home() {
           <SMNavbar />
         </div>
       </div>
-       {loading && <Loader />} 
+      {loading && <Loader />}
       <div className={`w-full h-auto ${loading ? "hidden" : "block"} `}>
 
 
@@ -89,11 +92,11 @@ export default function Home() {
                 src="/techKurukshetra/logo.png"
                 className="h-[12rem] w-fit overflow-hidden  lg:h-[13rem] z-50"
               />
-             
 
 
-                <TypingAnimation text="Welcome to Tech Kurukshetra" className=" md:text-6xl text-2xl font-semibold shadow-2xl personalText "/>
-               
+
+              <TypingAnimation text="Welcome to Tech Kurukshetra" className=" md:text-6xl text-2xl font-semibold shadow-2xl personalText " />
+
               <Fade className="absolute bottom-0 right-0 h-full w-fit " direction="right" duration={600} >
 
                 <img
@@ -222,130 +225,7 @@ export default function Home() {
                   <img src="/alldomain.png" className="h-auto w-full" />
                 </Fade>
               </div> */}
-              <Fade
-                direction="down"
-                duration={800}
-                className="text-7xl font-bold w-full h-auto pb-11 text-white text-center"
-              >
-                Our Events
-              </Fade>
-              <div className="h-fit w-screen bg-gray-600 flex flex-col gap-7">
-                <div className="w-full md:h-screen h-fit sticky top-0 pb-16 bg-blue-950 flex justify-around items-center md:flex-row flex-col gap-4 md:gap-0">
-                  <div className="h-full md:w-[50%] w-full flex flex-col gap-3 md:items-start items-center p-6 justify-center">
-                    <Fade direction="right" duration={800} className="md:text-7xl text-4xl text-white font-extrabold text-center">techXcelerate</Fade>
-                    <Fade direction="left" duration={700} className="md:text-2xl text-lg text-white font-medium text-start">
-                    Showcase your innovative projects and ideas in this competition. Whether it is a software application, hardware prototype, or research-based innovation, this event is the perfect platform to demonstrate your technical skills and problem-solving abilities. Impress the judges with your creativity, feasibility, and impact of the project.
-
- 
-                    </Fade>
-                    <Fade direction="down" className="h-fit w-fit">
-
-                    <div className="flex  gap-0 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
-
-                    <HomeDevfoliobutton link="" />
-                    <HomeDiscordButton link=""/>
-                    </div>
-                    </Fade>
-                  </div>
-                  <img className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen" src="/techKurukshetra/1.png" />
-                </div>
-                <div className="w-full md:h-screen h-fit sticky top-0 pb-16 bg-blue-950 flex justify-around items-center md:flex-row flex-col gap-4 md:gap-0">
-                  <div className="h-full md:w-[50%] w-full flex flex-col gap-3 md:items-start items-center p-6 justify-center">
-                    <Fade direction="right" duration={800} className="md:text-7xl text-4xl text-white font-extrabold text-center">Graphitech</Fade>
-                    <Fade direction="left" duration={700} className="md:text-2xl text-lg text-white font-medium text-start">
-                    Get creative and communicate complex technical concepts visually through posters. This competition encourages participants to design eye-catching and informative posters on any technological theme, presenting ideas in a way that is both visually appealing and educational.
-                    </Fade>
-                    <Fade direction="down" className="h-fit w-fit">
-
-                    <div className="flex  gap-0 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
-                    <HomeDiscordButton link=""/>
-                    </div>
-                    </Fade>
-                  </div>
-                  <img className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen" src="/techKurukshetra/3.png" />
-                </div>
-                <div className="w-full md:h-screen h-fit sticky top-0 pb-16 bg-blue-950 flex justify-around items-center md:flex-row flex-col gap-4 md:gap-0">
-                  <div className="h-full md:w-[50%] w-full flex flex-col gap-3 md:items-start items-center p-6 justify-center">
-                    <Fade direction="right" duration={800} className="md:text-7xl text-4xl text-white font-extrabold text-center">Syntax Showdown</Fade>
-                    <Fade direction="left" duration={700} className="md:text-2xl text-lg text-white font-medium text-start">
-                    Gear up for an intense coding battle where your programming skills will be put to the test. Solve challenging problems within a time limit using your preferred programming languages. The faster and more efficient your solution, the closer you will be to claiming victory.
-
- 
-                    </Fade>
-                    <Fade direction="down" className="h-fit w-fit">
-
-                    <div className="flex  gap-0 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
-
-                    <HomeDiscordButton link=""/>
-                    </div>
-                    </Fade>
-                  </div>
-                  <img className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen" src="/techKurukshetra/2.png" />
-                </div>
-                <div className="w-full md:h-screen h-fit sticky top-0 pb-16 bg-blue-950 flex justify-around items-center md:flex-row flex-col gap-4 md:gap-0">
-                  <div className="h-full md:w-[50%] w-full flex flex-col gap-3 md:items-start items-center p-6 justify-center">
-                    <Fade direction="right" duration={800} className="md:text-7xl text-4xl text-white font-extrabold text-center">techScribe</Fade>
-                    <Fade direction="left" duration={700} className="md:text-2xl text-lg text-white font-medium text-start">
-                    Test your writing skills in this technical writeup competition. Participants will be required to compose clear, concise, and insightful articles on current technology trends or innovations. This event focuses on how well you can articulate complex technical topics for a broad audience.
-
-                    </Fade>
-                    <Fade direction="down" className="h-fit w-fit">
-
-                    <div className="flex  gap-0 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
-
-                    
-                    <HomeDiscordButton link=""/>
-                    </div>
-                    </Fade>
-                  </div>
-                  <img className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen" src="/techKurukshetra/4.png" />
-                </div>
-               
-                
-               
-
-              </div>
-              <div
-                className="PrizeArea h-fit py-24 w-full flex justify-around items-center flex-col relative z-[555]"
-                id="prize"
-              >
-                <Fade
-                  className="w-full  h-auto md:text-[5rem] font-extrabold text-white flex justify-center items-center pb-6 text-5xl"
-                  direction="down"
-                  duration={1300}
-                >
-                  Our Prizes
-                </Fade>
-                <div className="h-fit w-full flex justify-around items-center flex-wrap flex-row ">
-                  <Fade direction="right" duration={800} delay={500} triggerOnce>
-                    <AnimatedPinDemo
-                      className="w-[20rem] h-[25rem]"
-                      title="Gift of Rs 6000"
-                      position="First"
-                      desc="Win exciting tech gift and gadget of worth 6000"
-                      image="/techKurukshetra/secondPrize.jpg"
-                    />
-                  </Fade>
-                  <Fade direction="left" duration={800} delay={500} triggerOnce>
-                    <AnimatedPinDemo
-                      className="w-[20rem] h-[25rem]"
-                      title="Gift and goodies of Rs 10000"
-                      desc="Win exciting tech gifts,goodies and gadgets of worth 10000"
-                      position="Second"
-                      image="/techKurukshetra/firstPrize.jpg"
-                    />
-                  </Fade>
-                  <Fade direction="right" duration={800} delay={500} triggerOnce>
-                    <AnimatedPinDemo
-                      className="w-[20rem] h-[25rem]"
-                      title="Gift of Rs 3000"
-                      position="Third"
-                      desc="Win exciting tech gifts and gadgets of worth 3000"
-                      image="/techKurukshetra/thirdPrize.png"
-                    />
-                  </Fade>
-                </div>
-              </div>
+           <Event/>
               <div
                 className="paartnearArea w-screen h-fit flex items-center justify-between flex-col relative z-[555]"
                 id="partner"
@@ -377,7 +257,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        26.09.2024
+                        27.09.2024
                       </span>
                       <p className='px-9 w-full mx-auto font-[300] text-xl'>
                         Tech Kurukshetra is live now. Dive into the world of innovation cutting-edge projects and explore limitless possibilities !
@@ -394,7 +274,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        26.09.2024
+                        27.09.2024
                       </span>
                       <p className='px-9 w-full mx-auto font-[400] text-xl'>
                         We are thrilled to announce that the registration has started already. So what are you waiting for ? Go and  Register !
@@ -488,8 +368,11 @@ export default function Home() {
               </div>
               <Faq />
               <Footer />
+              
+            
             </div>
           </div>
+          
         </div>
       </div>
     </div>

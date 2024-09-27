@@ -19,14 +19,6 @@ function PartnerShip() {
               </div>
             </div>
           </Fade>
-          <Fade direction="down" triggerOnce>
-            <div className="elements1 h-[10rem] w-[18rem] rounded-tl-xl rounded-br-xl border-2 flex flex-col justify-around items-center overflow-hidden">
-              <h1 className="text-[2rem] font-bold h-fit text-white">platform Partner</h1>
-              
-              <Image src={'/techKurukshetra/Devfolio.png'} alt="devfolio" width={1000} height={1000} className="bg-white w-auto max-w-full h-fit rounded-sm"/>
-              
-            </div>
-          </Fade>{" "}
           <Fade direction="left" triggerOnce>
             <div className="elements1 h-[10rem] w-[18rem] rounded-tl-xl rounded-br-xl border-2 flex flex-col items-center overflow-hidden">
               <h1 className="text-[2rem] font-bold h-fit text-white">IIC</h1>

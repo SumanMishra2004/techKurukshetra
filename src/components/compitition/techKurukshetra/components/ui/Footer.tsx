@@ -5,12 +5,14 @@ function Footer() {
     <footer className="w-full lg:h-[16rem] bg-gray-400 flex justify-between items-center md:flex-row flex-col gap-6 md:gap-0 md:h-fit py-8">
       <div className="w-[30rem] h-full flex items-center justify-center flex-col  ">
         <h1 className="text-white text-2xl font-bold">Tech Kurukshetra</h1>
-        <p className="text-white text-[0.9rem]">
-          University of Engineering & Management, Kolkata
+        <p className="text-white text-[1rem]">
+          University of Engineering & Management
         </p>
-        <p className="text-white text-sm">Kolkata, West Bengal, India</p>
-        <p className="text-white text-sm">+91 98306 80888</p>
-        <p className="text-white text-sm" typeof="gmail">tech.kurukshetra@uem.edu.in</p>
+        <p className="text-white text-md">Kolkata, West Bengal, India</p>
+        <p className="text-white text-md">Chiranjit :: +91 8389988385</p>
+        <p className="text-white text-md">Iffat :: +91 6289862813</p>
+        
+        <p className="text-white text-md" typeof="gmail">tech.kurukshetra@uem.edu.in</p>
       </div>
       <div className="h-full w-full flex justify-center items-center flex-col py-5">
         <img
