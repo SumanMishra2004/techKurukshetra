@@ -23,6 +23,13 @@ function Event() {
 
 
             </Fade>
+            <span className='text-white text-xl font-bold'> 
+              10:00 am - Registration and Varification<br/>
+              11:00 am - Allotments<br/>
+              12:00 pm - 02:00 pm - Presentation Session<br/>
+              3:00 pm - Evaluation<br/>
+              4:30 pm - Result published<br/>
+               </span>
             <span className='text-black text-2xl font-bold'> Prize pool: Worth Rs 16k </span>
             <Fade direction="down" className="h-fit w-fit">
 
@@ -61,6 +68,12 @@ function Event() {
             <Fade direction="left" duration={700} className="md:text-2xl text-lg text-white font-medium text-start">
               Get creative and communicate complex technical concepts visually through posters. This competition encourages participants to design eye-catching and informative posters on any technological theme, presenting ideas in a way that is both visually appealing and educational.
             </Fade>
+            <span className='text-white text-xl font-bold'> 
+              10:00 am - Registration and Varification<br/>
+              11:00 am - 02:00 pm - Demonstration<br/>
+              2:00 pm - Evaluation<br/>
+              4:00 pm - Result published<br/>
+               </span>
             <span className='text-black text-xl font-bold'> Prize pool:Gift and Prizes worth Rs 1500  </span>
             <Fade direction="down" className="h-fit w-fit">
 
@@ -105,6 +118,13 @@ function Event() {
 
 
             </Fade>
+            <span className='text-white text-xl font-bold'> 
+              10:00 am - Registration and Varification<br/>
+              1:30 pm - Set up<br/>
+              2:00 pm - 04:00 pm - It's coding time<br/>
+              
+              4:30 pm - Result published<br/>
+               </span>
             <span className='text-black text-xl font-bold'> Prize pool:Gift and Prizes Worth Rs 1500  </span>
             <Fade direction="down" className="h-fit w-fit">
 
@@ -151,6 +171,13 @@ function Event() {
               Test your writing skills in this technical writeup competition. Participants will be required to compose clear, concise, and insightful articles on current technology trends or innovations. This event focuses on how well you can articulate complex technical topics for a broad audience.
 
             </Fade>
+            <span className='text-white text-xl font-bold'> 
+              10:00 am - Registration and Varification<br/>
+              11:00 am - Starts<br/>
+              12:30 pm - Submit<br/>
+              1:00 pm - Evaluation<br/>
+              2:00 pm - Result published<br/>
+               </span>
             <span className='text-black text-xl font-bold'> Prize pool: Gift and Prizes worth Rs 1500 </span>
             <Fade direction="down" className="h-fit w-fit">
 
