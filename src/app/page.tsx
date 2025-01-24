@@ -36,7 +36,7 @@ import Event from "@/components/ui/Event";
 export default function Home() {
   
   let dt = new Date().getTime();
-  let main_dt = new Date("October 26, 2024,9:30:00").getTime();
+  let main_dt = new Date("February 22, 2025,9:30:00").getTime();
   const days_difference = Math.abs(main_dt - dt) / (1000 * 60 * 60 * 24);
 
   const [loading, setLoading] = useState(true);
@@ -257,7 +257,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        28.09.2024
+                        26.01.2025
                       </span>
                       <p className='px-9 w-full mx-auto font-[300] text-xl'>
                         Tech Kurukshetra is live now. Dive into the world of innovation cutting-edge projects and explore limitless possibilities !
@@ -274,7 +274,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        28.09.2024
+                        27.01.2025
                       </span>
                       <p className='px-9 w-full mx-auto font-[400] text-xl'>
                         We are thrilled to announce that the registration has started already. So what are you waiting for ? Go and  Register !
@@ -291,7 +291,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        15.10.2024
+                        15.02.2025
                       </span>
                       <p className='px-9 w-full mx-auto font-[500] text-xl'>
                         The  registration for Tech Kurukshetra is now closed. Get reay to witness ground breaking innovation. Stay tuned!
@@ -308,7 +308,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        20.10.2024
+                        20.02.2025
                       </span>
                       <p className='px-9 w-full mx-auto font-[600] text-xl'>
                         The selected teams for project competition will be declared.
@@ -325,7 +325,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        26.10.2024
+                        22.02.2025
                       </span>
                       <p className='px-9 w-full mx-auto font-[700] text-xl'>
                         The event will start from 11:00 am sharp. Lets join together to make the event successful.
@@ -342,7 +342,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        26.10.2024
+                        22.02.2025
                       </span>
                       <p className='px-9 w-full mx-auto font-[800] text-xl'>
                         Tech Kurukshetra will end at 5:00pm. We will come back again with much much interesting events in the upcoming days .

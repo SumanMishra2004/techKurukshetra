@@ -43,7 +43,7 @@ function Event() {
               </div>
             </Fade>
           </div>
-          <img className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen" src="/techKurukshetra/1.png" />
+          <img className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen" src="/1.jpg" />
         </div>
         <div className='w-full h-[40rem] relative top-0 left-0 z-[999] flex items-center justify-center'>
           <div className="h-fit py-8 w-screen md:w-[90%] lg:w-[80%] mb-12 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-20 border border-gray-100 flex items-center flex-col gap-6">
@@ -88,7 +88,7 @@ function Event() {
               </div>
             </Fade>
           </div>
-          <img className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen" src="/techKurukshetra/3.png" />
+          <img className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen" src="/3.jpg" />
         </div>
         <div className='w-full h-[40rem] relative top-0 left-0 z-[999] flex items-center justify-center'>
           <div className="h-fit py-8 w-screen md:w-[90%] lg:w-[80%] mb-12 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-20 border border-gray-100 flex items-center flex-col gap-6">
@@ -140,7 +140,7 @@ function Event() {
               </div>
             </Fade>
           </div>
-          <img className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen" src="/techKurukshetra/2.png" />
+          <img className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen" src="/2.jpg" />
         </div>
         <div className='w-full h-[40rem] relative top-0 left-0 z-[999] flex items-center justify-center'>
           <div className="h-fit py-8 w-screen md:w-[90%] lg:w-[80%] mb-12 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-20 border border-gray-100 flex items-center flex-col gap-6">
@@ -193,7 +193,7 @@ function Event() {
               </div>
             </Fade>
           </div>
-          <img className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen" src="/techKurukshetra/4.png" />
+          <img className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen" src="/4.jpg" />
         </div>
 
 
