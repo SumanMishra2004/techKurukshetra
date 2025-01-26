@@ -257,7 +257,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        26.01.2025
+                        27.01.2025
                       </span>
                       <p className='px-9 w-full mx-auto font-[300] text-xl'>
                         Tech Kurukshetra is live now. Dive into the world of innovation cutting-edge projects and explore limitless possibilities !
@@ -274,7 +274,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        27.01.2025
+                        28.01.2025
                       </span>
                       <p className='px-9 w-full mx-auto font-[400] text-xl'>
                         We are thrilled to announce that the registration has started already. So what are you waiting for ? Go and  Register !
