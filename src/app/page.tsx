@@ -89,7 +89,7 @@ export default function Home() {
 
             <div className="h-full w-full  flex justify-center md:justify-center  items-center flex-col sm:pt-0 gap-9" id="first">
               <img
-                src="/techKurukshetra/logo.png"
+                src="/logo.png"
                 className="h-[12rem] w-fit overflow-hidden  lg:h-[13rem] z-50"
               />
 

@@ -55,7 +55,7 @@ function Event() {
             </span> */}
             <Fade direction="down" className="h-fit w-fit">
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
-                <a href="https://forms.gle/kvaweoRw3hKxF4f18" target="_blank">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSePn12oCD6X0_xj3BQ6ZIbjNuK4B5xKjlfXeggKEneY219tHw/viewform?usp=header " target="_blank">
                   <button className="text-lg text-black bg-white rounded-lg shadow-2xl shadow-white py-3 px-5 border border-black">
                     Register Now
                   </button>
@@ -64,7 +64,7 @@ function Event() {
             </Fade>
           </div>
           <img
-            className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen"
+            className="md:h-[33rem] md:w-[28rem] shadow-2xl w-[20rem]  h-[20rem]  max-w-screen"
             src="/1.jpg"
           />
         </div>
@@ -136,7 +136,7 @@ function Event() {
             </span> */}
             <Fade direction="down" className="h-fit w-fit">
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
-                <a href="https://forms.gle/STKj1j8txzywrkbv9" target="_blank">
+                <a href="https://forms.gle/ax8tPdXmFK9arw6Q8" target="_blank">
                   <button className="text-lg text-black bg-white rounded-lg shadow-2xl shadow-white py-3 px-5 border border-black">
                     Register Now
                   </button>
@@ -145,7 +145,7 @@ function Event() {
             </Fade>
           </div>
           <img
-            className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen"
+            className="md:h-[28rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen"
             src="/3.jpg"
           />
         </div>
@@ -223,7 +223,7 @@ function Event() {
             </span> */}
             <Fade direction="down" className="h-fit w-fit">
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
-                <a href="https://forms.gle/skhbn5hSwJAGZRAZ8" target="_blank">
+                <a href="https://forms.gle/n5TAwxZj2q5SUseE9" target="_blank">
                   <button className="text-lg text-black bg-white rounded-lg shadow-2xl shadow-white py-3 px-5 border border-black">
                     Register Now
                   </button>
@@ -232,7 +232,7 @@ function Event() {
             </Fade>
           </div>
           <img
-            className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen"
+            className="md:h-[28rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen"
             src="/2.jpg"
           />
         </div>
@@ -316,7 +316,7 @@ function Event() {
             </span> */}
             <Fade direction="down" className="h-fit w-fit">
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
-                <a href="https://forms.gle/BZQUvDfGfL4rvCms6" target="_blank">
+                <a href="https://forms.gle/WMjmgLgbYgzWLZQQ8" target="_blank">
                   <button className="text-lg text-black bg-white rounded-lg shadow-2xl shadow-white py-3 px-5 border border-black">
                     Register Now
                   </button>
@@ -325,7 +325,7 @@ function Event() {
             </Fade>
           </div>
           <img
-            className="md:h-[33rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen"
+            className="md:h-[28rem] md:w-[25rem] shadow-2xl w-[18rem]  h-[20rem]  max-w-screen"
             src="/4.jpg"
           />
         </div>

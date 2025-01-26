@@ -9,7 +9,7 @@ function NavBar() {
         <div className="Logoarea h-[4.5rem] w-[4.5rem] rounded-full ">
           <Link href={'/#first'} className="h-full w-auto flex items-center">
 
-        <img src="/techKurukshetra/logo.png" alt="logo" className="scale-150 h-9 w-auto" />
+        <img src="/logo.png" alt="logo" className="scale-150 h-9 w-auto" />
           </Link>
         </div>
         <div className="FunctionArea h-full w-[75%]  flex justify-around items-center z-[999]">

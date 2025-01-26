@@ -34,7 +34,7 @@ function PartnerShip() {
           <Fade direction="down" triggerOnce>
             <div className="elements1 h-[10rem] w-[18rem] rounded-tl-xl rounded-br-xl border-2 flex flex-col items-center">
               <h1 className="text-white text-[2rem] font-bold">IEEE</h1>
-              <img src={'/IEEELogo.png'} alt="gfg" className=" h-[8rem]"/>
+              <img src={'/ieee.png'} alt="gfg" className=" h-[8rem] scale-150"/>
             </div>
           </Fade>
         </div>

@@ -43,7 +43,7 @@ function SMNavbar(): ReactElement {
       </div>
       <div className="h-full w-auto flex items-center  ">
         <img
-          src="/techKurukshetra/logo.png"
+          src="/logo.png"
           alt="logo"
           className="w-[8.5rem] h-auto"
         />

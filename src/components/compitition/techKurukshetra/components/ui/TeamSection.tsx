@@ -216,6 +216,13 @@ const TeamSection: React.FC<TeamSectionProps> = ({ type }) => {
     },
     {
       position: "volunteer",
+      name: "Ishika Sarkar",
+      designation: "Volunteer",
+      image: "/ishika.jpg",
+    },
+   
+    {
+      position: "volunteer",
       name: "Sourja Goswamy",
       designation: "Volunteer",
       image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727107605/tech%20kurukshetra%20team/ph74jy7avdind5pgfwye.jpg",
@@ -245,6 +252,22 @@ const TeamSection: React.FC<TeamSectionProps> = ({ type }) => {
       designation: "Volunteer",
       image: "https://res.cloudinary.com/dvky83edw/image/upload/v1727108730/tech%20kurukshetra%20team/f1tlvzqxg90eongcypc5.jpg",
     },
+    
+    {
+      position: "volunteer",
+      name: "Samaraho Mukherjee",
+      designation: "Volunteer",
+      image: "/jojo.jpg",
+      InstaId:"https://www.instagram.com/clvssclown/",
+      LinkedLnId:""
+    },
+    {
+      position: "volunteer",
+      name: "Isha Agarwal",
+      designation: "Volunteer",
+      image: "/isha.jpg",
+    },
+
   ];
   return (
     <Swiper
