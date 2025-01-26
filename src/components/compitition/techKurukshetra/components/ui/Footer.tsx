@@ -10,6 +10,8 @@ function Footer() {
         </p>
         <p className="text-white text-md">Kolkata, West Bengal, India</p>
         <p className="text-white text-md">Chiranjit :: +91 8389988385</p>
+        <p className="text-white text-md">Suman :: +91 9832019511</p>
+
         <p className="text-white text-md">Iffat :: +91 6289862813</p>
         
         <p className="text-white text-md" typeof="gmail">tech.kurukshetra@uem.edu.in</p>

@@ -30,7 +30,7 @@ function Event() {
               duration={700}
               className="md:text-2xl text-lg text-white font-medium text-start"
             >
-              Showcase your innovative projects and ideas in this competition.
+              Showcase your innovative projects and ideas in this exhibition + competition.
               Whether it is a software application, hardware prototype, or
               research-based innovation, this event is the perfect platform to
               demonstrate your technical skills and problem-solving abilities.
@@ -49,10 +49,10 @@ function Event() {
               4:30 pm - Result published
               <br />
             </span>
-            <span className="text-black text-2xl font-bold">
+            {/* <span className="text-black text-2xl font-bold">
               {" "}
-              Prize pool: Worth Rs 16k{" "}
-            </span>
+              Prize pool: Worth Rs 5k{" "}
+            </span> */}
             <Fade direction="down" className="h-fit w-fit">
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
                 <a href="https://forms.gle/kvaweoRw3hKxF4f18" target="_blank">
@@ -84,7 +84,7 @@ function Event() {
               - The competition consists of two rounds. In the first round,
               teams will be selected based on the project idea they present. The
               selected teams will proceed to the final round, which will take
-              place on the 26th of October, 2024.
+              place on the 22th of February, 2025.
               <br />
               - The final round will be judged by a panel of experts/judges.
               <br />
@@ -92,14 +92,11 @@ function Event() {
               <br />
               - The decisions made by the experts/judges are final and binding.
               Teams will move on to the next and final round which will be held
-              on the 26th of October, 2024.
+              on the 22th February, 2025.
               <br />
-              ~The final round will be judged by a panel of experts/judges.
-              <br />
-              ~Any form of misconduct will lead to disqualification.
-              <br />
-              ~The Expert&apos;s/Judges decisions are Final and Binding.
-              <br />
+              Every Team should carry their Project/Prototype for exhibition.
+              <br/>
+              Rest of the rules will be provided on the WhatsApp group.
             </div>
           </div>
         </div>
@@ -133,10 +130,10 @@ function Event() {
               4:00 pm - Result published
               <br />
             </span>
-            <span className="text-black text-xl font-bold">
+            {/* <span className="text-black text-xl font-bold">
               {" "}
               Prize pool:Gift and Prizes worth Rs 1500{" "}
-            </span>
+            </span> */}
             <Fade direction="down" className="h-fit w-fit">
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
                 <a href="https://forms.gle/STKj1j8txzywrkbv9" target="_blank">
@@ -220,10 +217,10 @@ function Event() {
               4:30 pm - Result published
               <br />
             </span>
-            <span className="text-black text-xl font-bold">
+            {/* <span className="text-black text-xl font-bold">
               {" "}
               Prize pool:Gift and Prizes Worth Rs 1500{" "}
-            </span>
+            </span> */}
             <Fade direction="down" className="h-fit w-fit">
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
                 <a href="https://forms.gle/skhbn5hSwJAGZRAZ8" target="_blank">
@@ -313,10 +310,10 @@ function Event() {
               2:00 pm - Result published
               <br />
             </span>
-            <span className="text-black text-xl font-bold">
+            {/* <span className="text-black text-xl font-bold">
               {" "}
               Prize pool: Gift and Prizes worth Rs 1500{" "}
-            </span>
+            </span> */}
             <Fade direction="down" className="h-fit w-fit">
               <div className="flex  gap-5 md:gap-10 w-auto h-auto items-center md:flex-row flex-col">
                 <a href="https://forms.gle/BZQUvDfGfL4rvCms6" target="_blank">
