@@ -291,7 +291,7 @@ export default function Home() {
                           src='rombosWhite.png'
                           className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
                         />
-                        15.02.2025
+                        20.02.2025
                       </span>
                       <p className='px-9 w-full mx-auto font-[500] text-xl'>
                         The  registration for Tech Kurukshetra is now closed. Get reay to witness ground breaking innovation. Stay tuned!
@@ -317,22 +317,7 @@ export default function Home() {
 
                   </Fade>
 
-                  <Fade direction='down' triggerOnce className="w-[80%] lg:w-[70%]">
-
-                    <div className="items w-[100%] h-auto py-5 bg-blue-500 border-blue-600 border-2 rounded-lg pl-9 relative shadow-lg hover:translate-x-[2rem] duration-1000 ease-in-out ml-5 lg:ml-0 hover:rotate-image cursor-pointer shadow-white">
-                      <span className='h-fit w-auto rounded-2xl bg-black absolute -left-14 -top-7 text-white text-center py-2 px-4'>
-                        <img
-                          src='rombosWhite.png'
-                          className='inline text-white pr-3 transition-transform duration-300 ease-in-out h-6 w-10'
-                        />
-                        22.02.2025
-                      </span>
-                      <p className='px-9 w-full mx-auto font-[700] text-xl'>
-                        The event will start from 10:00 am sharp. Lets join together to make the event successful.
-                      </p>
-                    </div>
-
-                  </Fade>
+                  
 
                   <Fade direction='down' triggerOnce className="w-[80%] lg:w-[70%]">
 
