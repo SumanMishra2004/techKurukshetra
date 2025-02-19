@@ -84,7 +84,7 @@ function Event() {
               - The competition consists of two rounds. In the first round,
               teams will be selected based on the project idea they present. The
               selected teams will proceed to the final round, which will take
-              place on the 22th of February, 2025.
+              place on the 22nd of February, 2025.
               <br />
               - The final round will be judged by a panel of experts/judges.
               <br />
