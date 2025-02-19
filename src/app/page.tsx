@@ -164,7 +164,7 @@ export default function Home() {
                     About Us
                   </Fade>
                   <Fade direction="right" duration={800}>
-                    Tech Kurukshetra is a premier technical fest where innovation meets competition! Scheduled for 22th February 2025, Tech Kurukshetra offers a dynamic platform for tech enthusiasts to showcase their talents across a variety of domains, including project competitions, coding challenges, technical writing, and poster design.
+                    Tech Kurukshetra is a premier technical fest where innovation meets competition! Scheduled for 22nd February 2025, Tech Kurukshetra offers a dynamic platform for tech enthusiasts to showcase their talents across a variety of domains, including project competitions, coding challenges, technical writing, and poster design.
                   </Fade>
                   <Fade direction="left" duration={900} delay={500}>
                     Whether you are a coder, creator, or communicator. this event promises a thrilling experience of learning, collaboration, and recognition. Join us for a day of creativity and competition, where bright minds come together to shape the future of technology!
