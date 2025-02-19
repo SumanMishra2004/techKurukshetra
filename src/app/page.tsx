@@ -294,7 +294,7 @@ export default function Home() {
                         20.02.2025
                       </span>
                       <p className='px-9 w-full mx-auto font-[500] text-xl'>
-                        The  registration for Tech Kurukshetra is now closed. Get reay to witness ground breaking innovation. Stay tuned!
+                        The  registration for Tech Kurukshetra is now closed. Get ready to witness ground breaking innovation. Stay tuned!
                       </p>
                     </div>
 
